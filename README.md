@@ -1,4 +1,4 @@
-# Predict Organic Chemical Boiling Point
+# Time-Series Forecasting on MSFT Stock Price
 ## Introduction 
 This projects develops a deep learning moldel (LSTM/RNN) to forecast the Microsoft Corporation Common Stock (MSFT) price. Some pre-processing and exploratory data analysis was conducted first to explore the data. Four different models (SimpleRNN, 1-layer LSTM and 2-layer SLTM with different window sizes) were trained and compared for better performance. 
 
