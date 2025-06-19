@@ -136,3 +136,4 @@ dmypy.json
 data/
 depricated/
 *.pkl
+retrain_lstm.py
