@@ -3,7 +3,7 @@
 This projects develops a deep learning moldel (LSTM/RNN) to forecast the Microsoft Corporation Common Stock (MSFT) price. Some pre-processing and exploratory data analysis was conducted first to explore the data. Four different models (SimpleRNN, 1-layer LSTM and 2-layer SLTM with different window sizes) were trained and compared for better performance. 
 
 ## Data 
-The dataset used in this project is downloaded from https://www.nasdaq.com/market-activity/stocks/msft/historical?page=1&rows_per_page=10&timeline=y5. It contains MSFT stock prices from 26/05/2020 to 22/05/2022.
+The dataset used in this project is downloaded from https://www.nasdaq.com/market-activity/stocks/msft/historical?page=1&rows_per_page=10&timeline=y5. It contains MSFT stock prices from 26/05/2020 to 22/05/2025.
 
 ## Data Pre-processing and Exploratory Data Analysis
 Pre-processing and exploratory data analysis were first conducted to explore the dataset and practice working with time-indexed data. 
