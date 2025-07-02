@@ -28,6 +28,6 @@ Future stock price prediction were made using prior 60 days stock price. Here ea
 
 ## Summary results 
 
-* A simple 1-layer LSTM architecture forcasts the *close price*  accurately with its prior 60 days *close price* as input, achieving a RMSE of 6.85 on the test data set. It has a RMSE of 6.85 on the test data set. This may or may not be acceptable depending on specific problems. Using log returns ($\log \left( \frac{P_t}{P_{t-1}} \right)$) or price difference ($P_t-P_{t-1}$) are alternative methods for the stock price forcast. 
+* A simple 1-layer LSTM architecture forcasts the *close price*  accurately with its prior 60 days *close price* as input, achieving a RMSE of 6.85 on the test data set. It has a RMSE of 6.85 on the test data set. This may or may not be acceptable depending on specific problems. Using log returns (log(P_t / P_{t-1})) or price difference ($P_t-P_{t-1}$) are alternative methods for the stock price forcast. 
 
 * We can extend this project for real-time streaming data by automating new data ingestion and retraining the model daily for the forcast of the next day's stock price.
